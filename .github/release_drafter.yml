@@ -29,6 +29,13 @@ template: |
   ## What's changed
 
   $CHANGES
+
+  ## Test evidence from UAT testing
+  I have not tested anything yet
+
+  ## Second pair of eyes by
+  No one yet here
+
 autolabeler:
   - label: 'chore'
     branch:
