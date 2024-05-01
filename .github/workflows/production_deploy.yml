@@ -8,7 +8,7 @@ jobs:
     environment: production
     steps:
       - name: Wait for possible ongoing staging deployment to succeed
-        uses: lewagon/wait-on-check-action@v1.0.0
+        uses: lewagon/wait-on-check-action@v1.3.4
         with:
           ref: main
           check-name: '🚀 Staging deployment'
