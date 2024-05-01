@@ -12,7 +12,7 @@ jobs:
     name: Create PR update main to production
     steps:
       - name: git checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: create pull request
         id: open-pr
